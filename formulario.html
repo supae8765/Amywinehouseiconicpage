@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="icon" href="imagenes/carloslleras.png">
+</head>
+<style>
+    h1{
+        font-family: Roman;
+        background-color: aqua;
+        
+    }
+    h2{
+        font-family: Roman;
+        background-color:aqua;
+    }
+    p{
+        font-family: Roman;
+    }
+</style>
+<body>
+    <a href="index.html">IR A INICIO</a>
+    <center>
+    <h1>Formulario xd</h1></center>
+    <p> Formulario:</p>
+    <form action="/action_page.php">
+        <fieldset>
+        Nombre de usuario:<br>
+        <input type="text" name="username" maxlength="10" autofocus autocomplete="on" required
+        ><br>
+        Contraseña:<br>
+        <input type="password" name="psw" maxlength="10" required><br>
+        Nombre:<br>
+        <input type="text" name="firstname"maxlength="15"autocomplete="on" required><br>
+        Apellidos:<br>
+        <input type="text" name="lastname"maxlength="15" required><br><br>
+        <input type="radio" name="gender" value="male" checked  required> Hombre<br>
+        <input type="radio" name="gender" value="female" required> Mujer<br>
+        <input type="radio" name="gender" value="other" required> Otro<br>
+        Selecciona tu color favorito:
+        <input type="color" name="favcolor" required><br><br>
+        Tu cumpleaños:
+            <input type="date" name="birthday" max="99" min="0" required><br>
+           <br>
+            ¿Cuando te registraste? (fecha y hora):
+            <input type="datetime-local" name="daytime" required><br><br>
+            Correo electrónico:
+            <input type="email" name="email" required><br><br>
+            Selecciona un fichero: <input type="file" name="myFile" ><br><br>
+            Mes y año:
+            <input type="month" name="monthYear" required><br>
+            <br>
+
+            Cual cancion es de Amy Winehouse:
+            <br><br>
+ <label for="NAME">life a mess</label><br>
+ <input id="name"type="checkbox" name="name" value="Life a mess"><br>
+ <label for="name">	Back to Black</label><br>
+ <input id="name"type="checkbox" name="name" value="Back to Black"><br>
+ <label for="name">cunumi</label><br>
+ <input id="name"type="checkbox" name="name" value=">cunumi"><br>
+ <label for="name">persia</label><br>
+ <input id="name"type="checkbox" name="name" value=">persia"><br>
+ <label for="name">hace mucho tiempo</label><br>
+ <input id="name"type="checkbox" name="name" value="hace mucho tiempo"><br>
+ <label for="name">i love</label><br>
+ <input id="name"type="checkbox" name="name" value=">i love"><br>
+ <br><br>
+ <input type="reset" name="name">
+ <input type="submit" name="name">
+
+
+
+
+
+            </fieldset>
+            </form>
+</body>
+</html>
